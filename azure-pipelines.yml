@@ -13,7 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  UserName:'Gouri Sohoni'
+  UserName: 'Gouri Sohoni'
 
 steps:
 - task: NuGetToolInstaller@0
