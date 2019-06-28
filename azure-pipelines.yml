@@ -40,12 +40,12 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
   
-  - task: PowerShell@2
-    inputs:
-      targetType: 'inline'
-      script: '# Write your powershell commands here.
-        
-        Write-Host "Hello " $(UserName)
-        
-        # Use the environment variables input below to pass secret variables to this script.'
-      errorActionPreference: 'continue'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: '# Write your powershell commands here.
+      
+      Write-Host "Hello " $(UserName)
+      
+      # Use the environment variables input below to pass secret variables to this script.'
+    errorActionPreference: 'continue'
