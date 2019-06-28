@@ -51,5 +51,4 @@ steps:
       Write-Host "Configuration is " $(configuration)
       Write-Host "Platform is" $(platform)
       
-      # Use the environment variables input below to pass secret variables to this script.'
     errorActionPreference: 'continue'
